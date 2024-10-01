@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace !important;
+    color: #000000;
+    color-scheme: dark;
+    background: #fff5d7;
+}
+
+.name-card {
+    font-size: 3.5rem;
+}
+
+.container {
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.headerSection {
+    height: 20px;
+}
+
+.defaultFont {
+    text-align: justify;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75rem;
+}
+
+
+
+.exp_container {
+    margin: 20px;
+}
+
+.duration {
+    padding: 2em 0;
+    /* border-right: 2px solid #F0F8FF; */
+}
+
+.org_name {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.skill {
+    width: calc(100% - 40px);
+    margin-bottom: 20px;
+}
+
+.skill-box {
+    /* border: 1px solid purple; */
+    /* border-radius: 8px; */
+    padding: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.skill-image {
+    height: 250px;
+    width: 250px;
+}
+
+.project-image {
+    height: 180px;
+    width: 380px;
+}
+
+.project-section {
+    margin-bottom: 20px;
+}
+
+.text-link {
+    font-size: 25px;
+}
+
+.certification-section {
+    margin-bottom: 20px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+
+    .skill-image {
+        height: 285px;
+        width: 175px;
+        ;
+    }
+}
